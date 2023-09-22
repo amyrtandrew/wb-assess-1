@@ -55,13 +55,17 @@ function itemsWithLength(items, length) {
 //   => ['a', 'c', 'e']
 function everyOtherItem(items) {
   let alternating = []
-  let i = 0
-  for (let i = items[0]; i < items.length; i += 2) {
-    alternating.push(i)
+  for (let i = 0; i < items.length; i += 2) {
+    alternating.push(items[i])
   }
   return alternating
   }
 
+
+  // const fruits = ['apple', 'berry', 'cherry'];
+  // console.log(fruits[fruits.indexOf('apple')]);
+  // // expected output:
+  // // apple
 
 // Given a list of words and a letter, return the indexes of the words that
 // start with that letter. You can assume that the words and letter will always
@@ -73,10 +77,9 @@ function findWordsStartingWith(words, letter) {
   let thatLetter = []
   for (let element of words) {
     if (element[0] === letter) {
-    let element = element[0].indexOf()
     thatLetter.push(element)
   }
-}
+  }
   return thatLetter
 }
 
@@ -103,7 +106,7 @@ function findIndex(items, value) {
       correctValue.push(element.indexOf(value))
     }
     else {
-      correctValue.push()
+      undefined
     }
   }
   return correctValue
