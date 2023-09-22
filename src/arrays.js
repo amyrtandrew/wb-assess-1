@@ -79,10 +79,10 @@ function findWordsStartingWith(words, letter) {
   // for (let element of words) {
     // if (element[0] === letter) {
     if (i[0] === letter) {
-    thatLetter.push(words[i])
+    thatLetter.push(i)
   }
   }
-  return thatLetter
+  return thatLetter(words[i])
 }
 
 // Return the `n` smallest values in the array in descending order (largest

@@ -231,7 +231,7 @@ console.log just prints. return terminates a function and can return a value of 
 **_What's the difference between defining and calling a function?_**
 
 ```
-Defining a function gives the function a name and parameters. Calling it will run the code inside the function
+Defining a function is creating a function with all of its code. Calling it is actually running the code within the function.
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +241,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-Data stored as text
+Data type in which data is given as text
 ```
 
 **_Number_**
 
 ```
-Data stored as a number
+Data type in which data is given as a number
 ```
 
 **_Boolean_**
 
 ```
-data type that is either true or false
+Data type that is either true or false
 ```
 
 **_Array_**
 
 ```
-Object used to store data as a list
+Data type that stores multiple values in one variable
 ```
 
 ### B.3. Trace the value of `x`

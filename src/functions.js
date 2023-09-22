@@ -95,14 +95,28 @@ else {
 //   leetspeak('javascript');
 //   => 'j4v45cr1p7'
 function leetspeak(string)  {
-//   let obj = {
-//  a: '4'
-//  e: '3'
-//  i: '1'
-//  o: '0'
-//  s: '5'
-//  t: '7'
-//   }
+  leety = ""
+  for (const element of string) {
+    if (element === `a`) {
+      leety += (string[element]`4`)
+    }
+    if (element === `e`) {
+      leety += (`3`)
+    }
+    if (element === `i`) {
+      leety += (`1`)
+    }
+    if (element === `o`) {
+      leety += (`0`)
+    }
+    if (element === `s`) {
+      leety += (`5`)
+    if (element === `t`) {
+       leety += (`7`)
+      }
+    }
+    return leety
+  }
 //     return(string.replace(/a|e|i|o|u/gi, function (matched){
 //       return obj[matched]
 //     }))
