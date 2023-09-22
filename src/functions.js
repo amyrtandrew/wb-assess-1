@@ -59,12 +59,28 @@ function censorVowels(string) {
 function stickyCase(string) {
 
   let sticky = ""
-  for (let i = 1; i < string.length; i += 2) {
-    i = 
-    sticky.push[i]
-  }
-  return sticky
+  for (let i = 0; i < string.length; i ++) {
+//somehow make it so the string still comes through on the lowercase ones.
+// if i == odd : add string[i].toUpperCase()
+// but if i == even : add string[i].toLowerCase()
+if (i % 2 > 0) {
+  sticky += (string[i].toUpperCase())
 }
+else {
+  sticky +=(string[i].toLowerCase())
+}
+  }
+  return sticky 
+}
+// returning undefined!!!!!
+
+// { if (){
+//   returnvariable
+// }
+// return undefined
+// }
+
+
 
 // Return the given string in leetspeak. Leetspeak is a modified version of
 // English where characters are replaced by numbers or symbols. For this

@@ -75,9 +75,11 @@ function everyOtherItem(items) {
 //   => [1, 4]
 function findWordsStartingWith(words, letter) {
   let thatLetter = []
-  for (let element of words) {
-    if (element[0] === letter) {
-    thatLetter.push(element)
+  for (let i = 0; i < words.length; i++) {
+  // for (let element of words) {
+    // if (element[0] === letter) {
+    if (i[0] === letter) {
+    thatLetter.push(words[i])
   }
   }
   return thatLetter
@@ -105,9 +107,7 @@ function findIndex(items, value) {
     if (element === value) {
       correctValue.push(element.indexOf(value))
     }
-    else {
-      undefined
-    }
+      return undefined
   }
   return correctValue
 }
