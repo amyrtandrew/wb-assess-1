@@ -14,7 +14,7 @@
 Which statement is true about JavaScript?
 
 - [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
-- [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
+- [x] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
 - [ ] **E.** None of the above are true.
@@ -33,7 +33,7 @@ answer.
 - [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
-- [ ] **D.** All of the above
+- [x] **D.** All of the above
 - [ ] **E.** Some of the above
 
 ### A.3. What's the output?
@@ -48,7 +48,7 @@ console.log(result);
 - [ ] **A.** `true`
 - [ ] **B.** `false`
 - [ ] **C.** `undefined`
-- [ ] **D.** N/A because the code has an error
+- [x] **D.** N/A because the code has an error
 
 ### A.4. What's the output?
 
@@ -65,7 +65,7 @@ if (word) {
 
 - [ ] **A.** `yay!`
 - [ ] **B.** `no :(`
-- [ ] **C.** An empty line
+- [x] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
 ### A.5. Fill in the blank
@@ -88,7 +88,7 @@ cherry
 ```
 
 - [ ] **A.** `const fruit in fruits`
-- [ ] **B.** `const fruit of fruits`
+- [x] **B.** `const fruit of fruits`
 - [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
 - [ ] **D.** None of the above
 
@@ -105,7 +105,7 @@ function makeWordArray(phrase) {
 
 - [ ] **A.** Nothing happens because the program errors out.
 - [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
-- [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
+- [x] **C.** It defines a function called `makeWordArray` and outputs a word array.
 - [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
 ### A.7. Identify the error
@@ -118,7 +118,7 @@ console.log'hi';
 // hi
 ```
 
-- [ ] **A.** The code causes an error because there should be parentheses around `'hi'`.
+- [x] **A.** The code causes an error because there should be parentheses around `'hi'`.
 - [ ] **B.** The code causes an error because `console.log` isn't a function.
 - [ ] **C.** The code causes an error because the code will run but it won't output anything.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -134,12 +134,12 @@ console.log(fruits[fruits.indexOf('apple')]);
 // apple
 ```
 
-- [ ] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
+- [] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
   JavaScript syntax.
 - [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
 - [ ] **C.** The code causes an error because it outputs `0` instead of the expected output.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ### A.9. Identify the error
 
