@@ -67,7 +67,7 @@ if (i % 2 > 0) {
   sticky += (string[i].toUpperCase())
 }
 else {
-  sticky +=(string[i].toLowerCase())
+  sticky += (string[i].toLowerCase())
 }
   }
   return sticky 
@@ -95,31 +95,35 @@ else {
 //   leetspeak('javascript');
 //   => 'j4v45cr1p7'
 function leetspeak(string)  {
-  leety = ""
-  for (const element of string) {
-    if (element === `a`) {
-      leety += (string[element]`4`)
+  let leety = ""
+  for (let i = 0; i < string.length; i++) {
+  // for (const element of string) {
+    if (string[i] === `a`) {
+      leety += (`4`)
     }
-    if (element === `e`) {
+    if (string[i] === `e`) {
       leety += (`3`)
     }
-    if (element === `i`) {
+    if (string[i] === `i`) {
       leety += (`1`)
     }
-    if (element === `o`) {
+    if (string[i] === `o`) {
       leety += (`0`)
     }
-    if (element === `s`) {
+    if (string[i] === `s`) {
       leety += (`5`)
-    if (element === `t`) {
+    }
+    if (string[i] === `t`) {
        leety += (`7`)
       }
+    else if (string[i] === `j` || string[i] === `v` || string[i] === `c` || string[i] === `r` || string[i] === `p`) {
+      leety += (string[i])
     }
-    return leety
   }
 //     return(string.replace(/a|e|i|o|u/gi, function (matched){
 //       return obj[matched]
 //     }))
+  return leety
 }
 
 
