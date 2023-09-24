@@ -118,11 +118,11 @@ function findIndex(items, value) {
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
 function range(start, stop) {
-let allNumbers = []
-for (let i = 0; i < items.length; i++) {
-  if (start[i] === start)
+  let result = []
+for (let i = start; i <= stop; i++) {
+  result.push(i)
 }
-
+return result
 }
 
 export {
