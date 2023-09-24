@@ -104,14 +104,12 @@ function smallestNItems(items, n) {
 //   findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 //   => 2
 function findIndex(items, value) {
-  let correctValue
-  for (const element of items) {
-    if (element === value) {
-      correctValue.push(element.indexOf(value))
+  for (let i = 0; i < items.length; i++) {
+    if (items[i] === value) {
+   return i
     }
-      return undefined
   }
-  return correctValue
+  return undefined
 }
 
 // Given a start number and stop number, return a new array containing all the numbers
@@ -120,6 +118,10 @@ function findIndex(items, value) {
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
 function range(start, stop) {
+let allNumbers = []
+for (let i = 0; i < items.length; i++) {
+  if (start[i] === start)
+}
 
 }
 
