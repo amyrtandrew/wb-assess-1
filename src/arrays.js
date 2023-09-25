@@ -93,9 +93,8 @@ function findWordsStartingWith(words, letter) {
 // Ex.:
 //   smallestNItems([1, 30, 4, 21, 100000], 3);
 //   => [21, 4, 1]
-function smallestNItems(items, n) {
-  let smallest = []
-}
+function smallestNItems(items, n) {}
+
 
 // Search for a value in the array and return its index. If the value appears
 // more than once, return the index of the *FIRST* occurrence of the value. If
